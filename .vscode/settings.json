@@ -1,0 +1,8 @@
+{
+    "verilog.project.enabled": true,
+    "verilog.project.filelists": ["files.f"],
+    "verilog.project.topModules": [
+        "top"
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}

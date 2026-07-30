@@ -1,0 +1,133 @@
+$date
+	Wed Jul 01 22:32:44 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module register_file_tb $end
+$var wire 32 ! read_data1 [31:0] $end
+$var wire 32 " read_data2 [31:0] $end
+$var reg 1 # clk $end
+$var reg 5 $ rd [4:0] $end
+$var reg 1 % reg_write $end
+$var reg 5 & rs1 [4:0] $end
+$var reg 5 ' rs2 [4:0] $end
+$var reg 32 ( write_data [31:0] $end
+$scope module dut $end
+$var wire 1 ) clk $end
+$var wire 5 * rd [4:0] $end
+$var wire 32 + read_data1 [31:0] $end
+$var wire 32 , read_data2 [31:0] $end
+$var wire 1 - reg_write $end
+$var wire 5 . rs1 [4:0] $end
+$var wire 5 / rs2 [4:0] $end
+$var wire 32 0 write_data [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 0
+b0 /
+b0 .
+0-
+b0 ,
+b0 +
+b0 *
+0)
+b0 (
+b0 '
+b0 &
+0%
+b0 $
+0#
+b0 "
+b0 !
+$end
+#3000
+1%
+1-
+b1100100 (
+b1100100 0
+b101 $
+b101 *
+#5000
+1#
+1)
+#6000
+b1100100 !
+b1100100 +
+b101 &
+b101 .
+0%
+0-
+#7000
+1%
+1-
+b1111100111 (
+b1111100111 0
+b1010 $
+b1010 *
+#10000
+0#
+0)
+#15000
+1#
+1)
+#16000
+b1111100111 !
+b1111100111 +
+b1010 &
+b1010 .
+0%
+0-
+#17000
+b1111100111 "
+b1111100111 ,
+b1100100 !
+b1100100 +
+b1010 '
+b1010 /
+b101 &
+b101 .
+#18000
+b1000101011 (
+b1000101011 0
+b101 $
+b101 *
+#20000
+0#
+0)
+#25000
+1#
+1)
+#26000
+1%
+1-
+b11111111111111111111111111111111 (
+b11111111111111111111111111111111 0
+b0 $
+b0 *
+#30000
+0#
+0)
+#35000
+1#
+1)
+#36000
+b0 !
+b0 +
+b0 &
+b0 .
+0%
+0-
+#40000
+0#
+0)
+#45000
+1#
+1)
+#47000
