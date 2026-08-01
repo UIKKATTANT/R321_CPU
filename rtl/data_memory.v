@@ -20,8 +20,10 @@ module data_memory(
     //=========================
     always @(posedge clk) begin
         if (mem_write) begin
-            dmem[address[31:2]] <= write_data;
-            $display("DMEM_WRITE: time=%0t addr=%h index=%0d write_data=%0d", $time, address, address[31:2], write_data);
+            integer idx_w;
+            idx_w = (address - 32'h80000000) >> 2;
+            dmem[idx_w] <= write_data;
+            $display("DMEM_WRITE: time=%0t addr=%h index=%0d write_data=%0d", $time, address, idx_w, write_data);
         end
     end
 
@@ -30,8 +32,10 @@ module data_memory(
     //=========================
     always @(*) begin
         if (mem_read) begin
-            read_data = dmem[address[31:2]];
-            $display("DMEM_READ: time=%0t addr=%h index=%0d read_data=%0d", $time, address, address[31:2], read_data);
+            integer idx_r;
+            idx_r = (address - 32'h80000000) >> 2;
+            read_data = dmem[idx_r];
+            $display("DMEM_READ: time=%0t addr=%h index=%0d read_data=%0d", $time, address, idx_r, read_data);
         end else
             read_data = 32'b0;
     end
