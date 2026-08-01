@@ -18,7 +18,6 @@ initial begin
     $display("DEBUG: dut.clk = %b", dut.clk);
     #100;
     $display("DEBUG: dut.clk = %b", dut.clk);
-    $finish;
 end
 
 //----------------------------------------------------
