@@ -1,4 +1,4 @@
-﻿# jal.s - jump and link (call function)
+# jal.s - jump and link (call function)
 jal x1, my_function
 # after return
 my_function:

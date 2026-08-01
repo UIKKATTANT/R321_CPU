@@ -1,4 +1,4 @@
-﻿# jalr.s - jump register (indirect call / return)
+# jalr.s - jump register (indirect call / return)
 la x5, my_function
 jalr x1, x5, 0         # call my_function
 # ... later ...

@@ -1,4 +1,4 @@
-﻿# sw.s - store word to memory
+# sw.s - store word to memory
 .data
 my_data: .word 0
 .text
