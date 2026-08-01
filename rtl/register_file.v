@@ -15,8 +15,14 @@ module register_file(
 reg [31:0] registers [0:31];
 
 always @(posedge clk)begin
-    if(reg_write && rd != 5'b0)
+    $display("REG_CLK: time=%0t", $time);
+    $display("CLK_EDGE: time=%0t", $time);
+    $display("RF_DEBUG: time=%0t reg_write=%0d rd=%0d write_data=%0d", $time, reg_write, rd, write_data);
+    if (reg_write) $display("RF_WRITE: time=%0t rd=%0d write_data=%0d", $time, rd, write_data);
+    if (reg_write && rd != 5'b0) begin
         registers[rd] <= write_data;
+        $display("REG WRITE: time=%0t rd=%0d write_data=%0d", $time, rd, write_data);
+    end
 end
 
 assign read_data1 = (rs1 == 0) ? 32'b0 : registers[rs1];
