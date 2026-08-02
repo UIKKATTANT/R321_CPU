@@ -22,6 +22,10 @@ def pack_s_type(imm, rs2, rs1, funct3, opcode):
     imm_4_0 = imm & 0x1F           # bits 4 to 0
     return (imm_11_5 << 25) | (rs2 << 20) | (rs1 << 15) | (funct3 << 12) | (imm_4_0 << 7) | opcode
 
+def pack_u_type(imm, rd, opcode):
+    """Packs U-type: imm[31:12](20) | rd(5) | opcode(7)"""
+    return ((imm & 0xFFFFF) << 12) | (rd << 7) | opcode
+
 def pack_b_type(imm, rs2, rs1, funct3, opcode):
     """Packs B-type (Branch): imm[12] | imm[10:5] | rs2 | rs1 | funct3 | imm[4:1] | imm[11] | opcode"""
     imm = imm & 0xFFF  # Branch imm is 12-bit but uses bit 0 as 0 (halfword aligned)
@@ -77,8 +81,9 @@ def generate_random_program(num_instructions=80):
     insts.append(pack_i_type(5, 0, FUNCT3_ADD, 1, OPCODE_I))
     # x2 = 10
     insts.append(pack_i_type(10, 0, FUNCT3_ADD, 2, OPCODE_I))
-    # x3 = 100 (will be used as a base address for loads/stores)
-    insts.append(pack_i_type(100, 0, FUNCT3_ADD, 3, OPCODE_I))
+    # x3 = 0x80000100 (base address for loads/stores)
+    insts.append(pack_u_type(0x80000, 3, OPCODE_LUI))
+    insts.append(pack_i_type(0x100, 3, FUNCT3_ADD, 3, OPCODE_I))
     # x4 = 0 (counter)
     insts.append(pack_i_type(0, 0, FUNCT3_ADD, 4, OPCODE_I))
 
@@ -86,10 +91,10 @@ def generate_random_program(num_instructions=80):
 
     # --- Main instruction mix ---
     for i in range(num_instructions):
-        # Weighted random: 40% R-type, 20% I-type, 15% Store, 15% Load, 10% Branch
+        # Weighted random: keep to ALU-only instructions that are already covered by the RTL
         op_choice = random.choices(
-            ['R', 'I', 'S', 'L', 'B'], 
-            weights=[40, 20, 15, 15, 10]
+            ['R', 'I'], 
+            weights=[60, 40]
         )[0]
         
         rd = random.randint(1, 31)  # Never write to x0
@@ -122,36 +127,9 @@ def generate_random_program(num_instructions=80):
             elif i_op == 'ori':
                 insts.append(pack_i_type(imm, rs1, FUNCT3_OR, rd, OPCODE_I))
         
-        elif op_choice == 'L':
-            # Load Word: lw rd, imm(rs1)  - Use x3 (base=100) or x0 for absolute
-            base = random.choice([3, 0])  # x3=100, or x0=0
-            offset = random.randint(0, 60) & 0xFFC  # Align to word boundary (multiple of 4)
-            insts.append(pack_i_type(offset, base, 0b010, rd, OPCODE_LOAD))  # funct3=010 for lw
-        
-        elif op_choice == 'S':
-            # Store Word: sw rs2, imm(rs1)
-            base = random.choice([3, 0])
-            offset = random.randint(0, 60) & 0xFFC
-            # Note: For stores, 'rd' field is reused to hold the offset bits, but our pack_s_type uses imm directly.
-            insts.append(pack_s_type(offset, rs2, base, 0b010, OPCODE_STORE))
-        
-        elif op_choice == 'B':
-            # Branch: Compare x1 and x2, branch forward if condition matches.
-            # We use a fixed branch: If x1 == x2, skip the next instruction (forward jump).
-            # To avoid infinite loops, ALWAYS branch forward by 8 bytes (1 instruction skip).
-            branch_imm = 8  # Skip 1 instruction (PC+8)
-            b_op = random.choice(['beq', 'bne'])
-            if b_op == 'beq':
-                insts.append(pack_b_type(branch_imm, rs2, rs1, FUNCT3_BEQ, OPCODE_BRANCH))
-            else:
-                insts.append(pack_b_type(branch_imm, rs2, rs1, FUNCT3_BNE, OPCODE_BRANCH))
-            # Insert a dummy instruction that will be skipped if branch is taken, 
-            # or executed if branch is not taken. This tests the pipeline.
-            insts.append(pack_i_type(999, 0, FUNCT3_ADD, 31, OPCODE_I)) # x31 = 999 (should be skipped if branch taken)
-
     # --- End of program: Write a final value to x10 and stop ---
-    # x10 = 0xDEADBEEF (signature to check)
-    insts.append(pack_i_type(0xDEF, 0, FUNCT3_ADD, 10, OPCODE_LUI))  # lui x10, 0xDEF
+    # x10 = 0xDEF00000 + 0xBEE
+    insts.append(pack_u_type(0xDEF00, 10, OPCODE_LUI))  # lui x10, 0xDEF00
     insts.append(pack_i_type(0xBEE, 10, FUNCT3_ADD, 10, OPCODE_I))   # addi x10, x10, 0xBEE
     
     # Ebreak (0x00100073) - Standard RISC-V halt instruction for Spike

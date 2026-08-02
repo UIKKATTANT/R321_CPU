@@ -57,7 +57,8 @@ regression:
 	@for test in $$(find riscv_assembly_examples -name "*.s" | sed 's|^riscv_assembly_examples/||' | sed 's/\.s$$//'); do \
 		echo ">>> Running $$test..."; \
 		$(MAKE) TEST_NAME=$$test check || exit 1; \
-	done------------------------------------------------------
+	done
+
 # 5. Generate + Run Random Test
 # ------------------------------------------------------------
 random:
