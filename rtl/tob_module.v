@@ -2,7 +2,7 @@ module top_module (
     input clk,
     input rst
 );
-
+always @(posedge clk) $display("TOP_CLK_EDGE: time=%0t", $time);
     // ============================================================
     // WIRES
     // ============================================================
@@ -99,6 +99,7 @@ module top_module (
 
     register_file regfile_inst (
         .clk        (clk),
+        .rst        (rst),
         .reg_write  (reg_write),
         .rs1        (instruction[19:15]),
         .rs2        (instruction[24:20]),

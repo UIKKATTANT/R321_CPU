@@ -1,0 +1,3564 @@
+WARNING: rtl/instruction_memory.v:12: $readmemh(program.hex): Not enough words in the file for the requested range [0:255].
+VCD info: dumpfile cpu_tb.vcd opened for output.
+CTRL_FINAL: opcode=0110111 reg_write=1
+T=0 PC=80000000 INST=80000137 x1=x x2=x x3=x
+CLK_TOGGLE: time=5000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=1 rd=2 write_data=2147483648
+RF_WRITE: time=0 rd=2 write_data=2147483648
+REG WRITE: time=0 rd=2 write_data=2147483648
+T=5000 PC=80000000 INST=80000137 x1=x x2=2147483648 x3=x
+CLK_TOGGLE: time=10000
+CLK_TOGGLE: time=15000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=1 rd=2 write_data=2147483648
+RF_WRITE: time=0 rd=2 write_data=2147483648
+REG WRITE: time=0 rd=2 write_data=2147483648
+TOP_CLK_EDGE: time=0
+CTRL_FINAL: opcode=0010011 reg_write=1
+T=15000 PC=80000004 INST=10010113 x1=x x2=2147483648 x3=x
+CLK_TOGGLE: time=20000
+CLK_TOGGLE: time=25000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=1 rd=2 write_data=2147483904
+RF_WRITE: time=0 rd=2 write_data=2147483904
+REG WRITE: time=0 rd=2 write_data=2147483904
+T=25000 PC=80000008 INST=02a00093 x1=x x2=2147483904 x3=x
+CLK_TOGGLE: time=30000
+CLK_TOGGLE: time=35000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=1 rd=1 write_data=42
+RF_WRITE: time=0 rd=1 write_data=42
+REG WRITE: time=0 rd=1 write_data=42
+TOP_CLK_EDGE: time=0
+CTRL_FINAL: opcode=0100011 reg_write=0
+T=35000 PC=8000000c INST=00112023 x1=42 x2=2147483904 x3=x
+CLK_TOGGLE: time=40000
+CLK_TOGGLE: time=45000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=0 write_data=2147483904
+DMEM_WRITE: time=0 addr=80000100 index=64 write_data=42
+CONTROL: lw detected, reg_write=0
+CTRL_FINAL: opcode=0000011 reg_write=1
+DMEM_READ: time=0 addr=80000100 index=64 read_data=42
+T=45000 PC=80000010 INST=00012183 x1=42 x2=2147483904 x3=x
+CLK_TOGGLE: time=50000
+CLK_TOGGLE: time=55000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=1 rd=3 write_data=42
+RF_WRITE: time=0 rd=3 write_data=42
+REG WRITE: time=0 rd=3 write_data=42
+TOP_CLK_EDGE: time=0
+CTRL_FINAL: opcode=1110011 reg_write=0
+T=55000 PC=80000014 INST=00100073 x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=60000
+CLK_TOGGLE: time=65000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=0 write_data=0
+CTRL_FINAL: opcode=xxxxxxx reg_write=0
+T=65000 PC=80000018 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=70000
+CLK_TOGGLE: time=75000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=75000 PC=8000001c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=80000
+CLK_TOGGLE: time=85000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=85000 PC=80000020 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=90000
+CLK_TOGGLE: time=95000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=95000 PC=80000024 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+DEBUG: dut.clk = 1
+CLK_TOGGLE: time=100000
+CLK_TOGGLE: time=105000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=105000 PC=80000028 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=110000
+CLK_TOGGLE: time=115000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=115000 PC=8000002c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=120000
+CLK_TOGGLE: time=125000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=125000 PC=80000030 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=130000
+CLK_TOGGLE: time=135000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=135000 PC=80000034 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=140000
+CLK_TOGGLE: time=145000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=145000 PC=80000038 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=150000
+CLK_TOGGLE: time=155000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=155000 PC=8000003c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=160000
+CLK_TOGGLE: time=165000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=165000 PC=80000040 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=170000
+CLK_TOGGLE: time=175000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=175000 PC=80000044 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=180000
+CLK_TOGGLE: time=185000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=185000 PC=80000048 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=190000
+CLK_TOGGLE: time=195000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=195000 PC=8000004c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+DEBUG: dut.clk = 1
+CLK_TOGGLE: time=200000
+CLK_TOGGLE: time=205000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=205000 PC=80000050 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=210000
+CLK_TOGGLE: time=215000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=215000 PC=80000054 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=220000
+CLK_TOGGLE: time=225000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=225000 PC=80000058 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=230000
+CLK_TOGGLE: time=235000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=235000 PC=8000005c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=240000
+CLK_TOGGLE: time=245000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=245000 PC=80000060 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=250000
+CLK_TOGGLE: time=255000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=255000 PC=80000064 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=260000
+CLK_TOGGLE: time=265000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=265000 PC=80000068 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=270000
+CLK_TOGGLE: time=275000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=275000 PC=8000006c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=280000
+CLK_TOGGLE: time=285000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=285000 PC=80000070 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=290000
+CLK_TOGGLE: time=295000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=295000 PC=80000074 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=300000
+CLK_TOGGLE: time=305000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=305000 PC=80000078 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=310000
+CLK_TOGGLE: time=315000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=315000 PC=8000007c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=320000
+CLK_TOGGLE: time=325000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=325000 PC=80000080 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=330000
+CLK_TOGGLE: time=335000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=335000 PC=80000084 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=340000
+CLK_TOGGLE: time=345000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=345000 PC=80000088 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=350000
+CLK_TOGGLE: time=355000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=355000 PC=8000008c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=360000
+CLK_TOGGLE: time=365000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=365000 PC=80000090 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=370000
+CLK_TOGGLE: time=375000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=375000 PC=80000094 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=380000
+CLK_TOGGLE: time=385000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=385000 PC=80000098 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=390000
+CLK_TOGGLE: time=395000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=395000 PC=8000009c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=400000
+CLK_TOGGLE: time=405000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=405000 PC=800000a0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=410000
+CLK_TOGGLE: time=415000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=415000 PC=800000a4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=420000
+CLK_TOGGLE: time=425000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=425000 PC=800000a8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=430000
+CLK_TOGGLE: time=435000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=435000 PC=800000ac INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=440000
+CLK_TOGGLE: time=445000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=445000 PC=800000b0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=450000
+CLK_TOGGLE: time=455000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=455000 PC=800000b4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=460000
+CLK_TOGGLE: time=465000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=465000 PC=800000b8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=470000
+CLK_TOGGLE: time=475000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=475000 PC=800000bc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=480000
+CLK_TOGGLE: time=485000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=485000 PC=800000c0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=490000
+CLK_TOGGLE: time=495000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=495000 PC=800000c4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=500000
+CLK_TOGGLE: time=505000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=505000 PC=800000c8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=510000
+CLK_TOGGLE: time=515000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=515000 PC=800000cc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=520000
+CLK_TOGGLE: time=525000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=525000 PC=800000d0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=530000
+CLK_TOGGLE: time=535000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=535000 PC=800000d4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=540000
+CLK_TOGGLE: time=545000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=545000 PC=800000d8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=550000
+CLK_TOGGLE: time=555000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=555000 PC=800000dc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=560000
+CLK_TOGGLE: time=565000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=565000 PC=800000e0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=570000
+CLK_TOGGLE: time=575000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=575000 PC=800000e4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=580000
+CLK_TOGGLE: time=585000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=585000 PC=800000e8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=590000
+CLK_TOGGLE: time=595000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=595000 PC=800000ec INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=600000
+CLK_TOGGLE: time=605000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=605000 PC=800000f0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=610000
+CLK_TOGGLE: time=615000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=615000 PC=800000f4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=620000
+CLK_TOGGLE: time=625000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=625000 PC=800000f8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=630000
+CLK_TOGGLE: time=635000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=635000 PC=800000fc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=640000
+CLK_TOGGLE: time=645000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=645000 PC=80000100 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=650000
+CLK_TOGGLE: time=655000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=655000 PC=80000104 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=660000
+CLK_TOGGLE: time=665000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=665000 PC=80000108 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=670000
+CLK_TOGGLE: time=675000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=675000 PC=8000010c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=680000
+CLK_TOGGLE: time=685000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=685000 PC=80000110 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=690000
+CLK_TOGGLE: time=695000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=695000 PC=80000114 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=700000
+CLK_TOGGLE: time=705000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=705000 PC=80000118 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=710000
+CLK_TOGGLE: time=715000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=715000 PC=8000011c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=720000
+CLK_TOGGLE: time=725000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=725000 PC=80000120 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=730000
+CLK_TOGGLE: time=735000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=735000 PC=80000124 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=740000
+CLK_TOGGLE: time=745000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=745000 PC=80000128 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=750000
+CLK_TOGGLE: time=755000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=755000 PC=8000012c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=760000
+CLK_TOGGLE: time=765000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=765000 PC=80000130 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=770000
+CLK_TOGGLE: time=775000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=775000 PC=80000134 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=780000
+CLK_TOGGLE: time=785000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=785000 PC=80000138 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=790000
+CLK_TOGGLE: time=795000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=795000 PC=8000013c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=800000
+CLK_TOGGLE: time=805000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=805000 PC=80000140 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=810000
+CLK_TOGGLE: time=815000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=815000 PC=80000144 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=820000
+CLK_TOGGLE: time=825000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=825000 PC=80000148 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=830000
+CLK_TOGGLE: time=835000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=835000 PC=8000014c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=840000
+CLK_TOGGLE: time=845000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=845000 PC=80000150 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=850000
+CLK_TOGGLE: time=855000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=855000 PC=80000154 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=860000
+CLK_TOGGLE: time=865000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=865000 PC=80000158 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=870000
+CLK_TOGGLE: time=875000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=875000 PC=8000015c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=880000
+CLK_TOGGLE: time=885000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=885000 PC=80000160 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=890000
+CLK_TOGGLE: time=895000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=895000 PC=80000164 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=900000
+CLK_TOGGLE: time=905000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=905000 PC=80000168 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=910000
+CLK_TOGGLE: time=915000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=915000 PC=8000016c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=920000
+CLK_TOGGLE: time=925000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=925000 PC=80000170 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=930000
+CLK_TOGGLE: time=935000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=935000 PC=80000174 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=940000
+CLK_TOGGLE: time=945000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=945000 PC=80000178 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=950000
+CLK_TOGGLE: time=955000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=955000 PC=8000017c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=960000
+CLK_TOGGLE: time=965000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=965000 PC=80000180 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=970000
+CLK_TOGGLE: time=975000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=975000 PC=80000184 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=980000
+CLK_TOGGLE: time=985000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=985000 PC=80000188 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=990000
+CLK_TOGGLE: time=995000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=995000 PC=8000018c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1000000
+CLK_TOGGLE: time=1005000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1005000 PC=80000190 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1010000
+CLK_TOGGLE: time=1015000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1015000 PC=80000194 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1020000
+CLK_TOGGLE: time=1025000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1025000 PC=80000198 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1030000
+CLK_TOGGLE: time=1035000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1035000 PC=8000019c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1040000
+CLK_TOGGLE: time=1045000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1045000 PC=800001a0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1050000
+CLK_TOGGLE: time=1055000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1055000 PC=800001a4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1060000
+CLK_TOGGLE: time=1065000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1065000 PC=800001a8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1070000
+CLK_TOGGLE: time=1075000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1075000 PC=800001ac INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1080000
+CLK_TOGGLE: time=1085000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1085000 PC=800001b0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1090000
+CLK_TOGGLE: time=1095000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1095000 PC=800001b4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1100000
+CLK_TOGGLE: time=1105000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1105000 PC=800001b8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1110000
+CLK_TOGGLE: time=1115000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1115000 PC=800001bc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1120000
+CLK_TOGGLE: time=1125000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1125000 PC=800001c0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1130000
+CLK_TOGGLE: time=1135000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1135000 PC=800001c4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1140000
+CLK_TOGGLE: time=1145000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1145000 PC=800001c8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1150000
+CLK_TOGGLE: time=1155000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1155000 PC=800001cc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1160000
+CLK_TOGGLE: time=1165000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1165000 PC=800001d0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1170000
+CLK_TOGGLE: time=1175000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1175000 PC=800001d4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1180000
+CLK_TOGGLE: time=1185000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1185000 PC=800001d8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1190000
+CLK_TOGGLE: time=1195000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1195000 PC=800001dc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1200000
+CLK_TOGGLE: time=1205000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1205000 PC=800001e0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1210000
+CLK_TOGGLE: time=1215000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1215000 PC=800001e4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1220000
+CLK_TOGGLE: time=1225000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1225000 PC=800001e8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1230000
+CLK_TOGGLE: time=1235000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1235000 PC=800001ec INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1240000
+CLK_TOGGLE: time=1245000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1245000 PC=800001f0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1250000
+CLK_TOGGLE: time=1255000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1255000 PC=800001f4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1260000
+CLK_TOGGLE: time=1265000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1265000 PC=800001f8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1270000
+CLK_TOGGLE: time=1275000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1275000 PC=800001fc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1280000
+CLK_TOGGLE: time=1285000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1285000 PC=80000200 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1290000
+CLK_TOGGLE: time=1295000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1295000 PC=80000204 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1300000
+CLK_TOGGLE: time=1305000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1305000 PC=80000208 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1310000
+CLK_TOGGLE: time=1315000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1315000 PC=8000020c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1320000
+CLK_TOGGLE: time=1325000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1325000 PC=80000210 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1330000
+CLK_TOGGLE: time=1335000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1335000 PC=80000214 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1340000
+CLK_TOGGLE: time=1345000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1345000 PC=80000218 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1350000
+CLK_TOGGLE: time=1355000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1355000 PC=8000021c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1360000
+CLK_TOGGLE: time=1365000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1365000 PC=80000220 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1370000
+CLK_TOGGLE: time=1375000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1375000 PC=80000224 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1380000
+CLK_TOGGLE: time=1385000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1385000 PC=80000228 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1390000
+CLK_TOGGLE: time=1395000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1395000 PC=8000022c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1400000
+CLK_TOGGLE: time=1405000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1405000 PC=80000230 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1410000
+CLK_TOGGLE: time=1415000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1415000 PC=80000234 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1420000
+CLK_TOGGLE: time=1425000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1425000 PC=80000238 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1430000
+CLK_TOGGLE: time=1435000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1435000 PC=8000023c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1440000
+CLK_TOGGLE: time=1445000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1445000 PC=80000240 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1450000
+CLK_TOGGLE: time=1455000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1455000 PC=80000244 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1460000
+CLK_TOGGLE: time=1465000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1465000 PC=80000248 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1470000
+CLK_TOGGLE: time=1475000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1475000 PC=8000024c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1480000
+CLK_TOGGLE: time=1485000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1485000 PC=80000250 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1490000
+CLK_TOGGLE: time=1495000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1495000 PC=80000254 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1500000
+CLK_TOGGLE: time=1505000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1505000 PC=80000258 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1510000
+CLK_TOGGLE: time=1515000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1515000 PC=8000025c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1520000
+CLK_TOGGLE: time=1525000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1525000 PC=80000260 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1530000
+CLK_TOGGLE: time=1535000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1535000 PC=80000264 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1540000
+CLK_TOGGLE: time=1545000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1545000 PC=80000268 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1550000
+CLK_TOGGLE: time=1555000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1555000 PC=8000026c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1560000
+CLK_TOGGLE: time=1565000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1565000 PC=80000270 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1570000
+CLK_TOGGLE: time=1575000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1575000 PC=80000274 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1580000
+CLK_TOGGLE: time=1585000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1585000 PC=80000278 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1590000
+CLK_TOGGLE: time=1595000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1595000 PC=8000027c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1600000
+CLK_TOGGLE: time=1605000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1605000 PC=80000280 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1610000
+CLK_TOGGLE: time=1615000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1615000 PC=80000284 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1620000
+CLK_TOGGLE: time=1625000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1625000 PC=80000288 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1630000
+CLK_TOGGLE: time=1635000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1635000 PC=8000028c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1640000
+CLK_TOGGLE: time=1645000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1645000 PC=80000290 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1650000
+CLK_TOGGLE: time=1655000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1655000 PC=80000294 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1660000
+CLK_TOGGLE: time=1665000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1665000 PC=80000298 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1670000
+CLK_TOGGLE: time=1675000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1675000 PC=8000029c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1680000
+CLK_TOGGLE: time=1685000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1685000 PC=800002a0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1690000
+CLK_TOGGLE: time=1695000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1695000 PC=800002a4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1700000
+CLK_TOGGLE: time=1705000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1705000 PC=800002a8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1710000
+CLK_TOGGLE: time=1715000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1715000 PC=800002ac INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1720000
+CLK_TOGGLE: time=1725000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1725000 PC=800002b0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1730000
+CLK_TOGGLE: time=1735000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1735000 PC=800002b4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1740000
+CLK_TOGGLE: time=1745000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1745000 PC=800002b8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1750000
+CLK_TOGGLE: time=1755000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1755000 PC=800002bc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1760000
+CLK_TOGGLE: time=1765000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1765000 PC=800002c0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1770000
+CLK_TOGGLE: time=1775000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1775000 PC=800002c4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1780000
+CLK_TOGGLE: time=1785000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1785000 PC=800002c8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1790000
+CLK_TOGGLE: time=1795000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1795000 PC=800002cc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1800000
+CLK_TOGGLE: time=1805000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1805000 PC=800002d0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1810000
+CLK_TOGGLE: time=1815000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1815000 PC=800002d4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1820000
+CLK_TOGGLE: time=1825000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1825000 PC=800002d8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1830000
+CLK_TOGGLE: time=1835000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1835000 PC=800002dc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1840000
+CLK_TOGGLE: time=1845000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1845000 PC=800002e0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1850000
+CLK_TOGGLE: time=1855000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1855000 PC=800002e4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1860000
+CLK_TOGGLE: time=1865000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1865000 PC=800002e8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1870000
+CLK_TOGGLE: time=1875000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1875000 PC=800002ec INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1880000
+CLK_TOGGLE: time=1885000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1885000 PC=800002f0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1890000
+CLK_TOGGLE: time=1895000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1895000 PC=800002f4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1900000
+CLK_TOGGLE: time=1905000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1905000 PC=800002f8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1910000
+CLK_TOGGLE: time=1915000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1915000 PC=800002fc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1920000
+CLK_TOGGLE: time=1925000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1925000 PC=80000300 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1930000
+CLK_TOGGLE: time=1935000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1935000 PC=80000304 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1940000
+CLK_TOGGLE: time=1945000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1945000 PC=80000308 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1950000
+CLK_TOGGLE: time=1955000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1955000 PC=8000030c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1960000
+CLK_TOGGLE: time=1965000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1965000 PC=80000310 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1970000
+CLK_TOGGLE: time=1975000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1975000 PC=80000314 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1980000
+CLK_TOGGLE: time=1985000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=1985000 PC=80000318 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=1990000
+CLK_TOGGLE: time=1995000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=1995000 PC=8000031c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2000000
+CLK_TOGGLE: time=2005000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2005000 PC=80000320 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2010000
+CLK_TOGGLE: time=2015000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2015000 PC=80000324 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2020000
+CLK_TOGGLE: time=2025000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2025000 PC=80000328 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2030000
+CLK_TOGGLE: time=2035000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2035000 PC=8000032c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2040000
+CLK_TOGGLE: time=2045000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2045000 PC=80000330 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2050000
+CLK_TOGGLE: time=2055000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2055000 PC=80000334 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2060000
+CLK_TOGGLE: time=2065000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2065000 PC=80000338 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2070000
+CLK_TOGGLE: time=2075000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2075000 PC=8000033c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2080000
+CLK_TOGGLE: time=2085000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2085000 PC=80000340 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2090000
+CLK_TOGGLE: time=2095000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2095000 PC=80000344 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2100000
+CLK_TOGGLE: time=2105000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2105000 PC=80000348 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2110000
+CLK_TOGGLE: time=2115000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2115000 PC=8000034c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2120000
+CLK_TOGGLE: time=2125000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2125000 PC=80000350 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2130000
+CLK_TOGGLE: time=2135000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2135000 PC=80000354 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2140000
+CLK_TOGGLE: time=2145000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2145000 PC=80000358 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2150000
+CLK_TOGGLE: time=2155000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2155000 PC=8000035c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2160000
+CLK_TOGGLE: time=2165000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2165000 PC=80000360 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2170000
+CLK_TOGGLE: time=2175000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2175000 PC=80000364 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2180000
+CLK_TOGGLE: time=2185000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2185000 PC=80000368 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2190000
+CLK_TOGGLE: time=2195000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2195000 PC=8000036c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2200000
+CLK_TOGGLE: time=2205000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2205000 PC=80000370 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2210000
+CLK_TOGGLE: time=2215000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2215000 PC=80000374 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2220000
+CLK_TOGGLE: time=2225000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2225000 PC=80000378 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2230000
+CLK_TOGGLE: time=2235000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2235000 PC=8000037c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2240000
+CLK_TOGGLE: time=2245000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2245000 PC=80000380 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2250000
+CLK_TOGGLE: time=2255000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2255000 PC=80000384 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2260000
+CLK_TOGGLE: time=2265000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2265000 PC=80000388 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2270000
+CLK_TOGGLE: time=2275000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2275000 PC=8000038c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2280000
+CLK_TOGGLE: time=2285000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2285000 PC=80000390 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2290000
+CLK_TOGGLE: time=2295000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2295000 PC=80000394 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2300000
+CLK_TOGGLE: time=2305000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2305000 PC=80000398 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2310000
+CLK_TOGGLE: time=2315000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2315000 PC=8000039c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2320000
+CLK_TOGGLE: time=2325000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2325000 PC=800003a0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2330000
+CLK_TOGGLE: time=2335000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2335000 PC=800003a4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2340000
+CLK_TOGGLE: time=2345000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2345000 PC=800003a8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2350000
+CLK_TOGGLE: time=2355000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2355000 PC=800003ac INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2360000
+CLK_TOGGLE: time=2365000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2365000 PC=800003b0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2370000
+CLK_TOGGLE: time=2375000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2375000 PC=800003b4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2380000
+CLK_TOGGLE: time=2385000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2385000 PC=800003b8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2390000
+CLK_TOGGLE: time=2395000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2395000 PC=800003bc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2400000
+CLK_TOGGLE: time=2405000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2405000 PC=800003c0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2410000
+CLK_TOGGLE: time=2415000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2415000 PC=800003c4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2420000
+CLK_TOGGLE: time=2425000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2425000 PC=800003c8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2430000
+CLK_TOGGLE: time=2435000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2435000 PC=800003cc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2440000
+CLK_TOGGLE: time=2445000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2445000 PC=800003d0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2450000
+CLK_TOGGLE: time=2455000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2455000 PC=800003d4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2460000
+CLK_TOGGLE: time=2465000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2465000 PC=800003d8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2470000
+CLK_TOGGLE: time=2475000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2475000 PC=800003dc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2480000
+CLK_TOGGLE: time=2485000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2485000 PC=800003e0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2490000
+CLK_TOGGLE: time=2495000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2495000 PC=800003e4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2500000
+CLK_TOGGLE: time=2505000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2505000 PC=800003e8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2510000
+CLK_TOGGLE: time=2515000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2515000 PC=800003ec INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2520000
+CLK_TOGGLE: time=2525000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2525000 PC=800003f0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2530000
+CLK_TOGGLE: time=2535000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2535000 PC=800003f4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2540000
+CLK_TOGGLE: time=2545000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2545000 PC=800003f8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2550000
+CLK_TOGGLE: time=2555000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2555000 PC=800003fc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2560000
+CLK_TOGGLE: time=2565000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2565000 PC=80000400 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2570000
+CLK_TOGGLE: time=2575000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2575000 PC=80000404 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2580000
+CLK_TOGGLE: time=2585000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2585000 PC=80000408 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2590000
+CLK_TOGGLE: time=2595000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2595000 PC=8000040c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2600000
+CLK_TOGGLE: time=2605000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2605000 PC=80000410 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2610000
+CLK_TOGGLE: time=2615000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2615000 PC=80000414 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2620000
+CLK_TOGGLE: time=2625000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2625000 PC=80000418 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2630000
+CLK_TOGGLE: time=2635000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2635000 PC=8000041c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2640000
+CLK_TOGGLE: time=2645000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2645000 PC=80000420 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2650000
+CLK_TOGGLE: time=2655000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2655000 PC=80000424 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2660000
+CLK_TOGGLE: time=2665000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2665000 PC=80000428 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2670000
+CLK_TOGGLE: time=2675000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2675000 PC=8000042c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2680000
+CLK_TOGGLE: time=2685000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2685000 PC=80000430 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2690000
+CLK_TOGGLE: time=2695000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2695000 PC=80000434 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2700000
+CLK_TOGGLE: time=2705000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2705000 PC=80000438 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2710000
+CLK_TOGGLE: time=2715000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2715000 PC=8000043c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2720000
+CLK_TOGGLE: time=2725000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2725000 PC=80000440 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2730000
+CLK_TOGGLE: time=2735000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2735000 PC=80000444 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2740000
+CLK_TOGGLE: time=2745000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2745000 PC=80000448 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2750000
+CLK_TOGGLE: time=2755000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2755000 PC=8000044c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2760000
+CLK_TOGGLE: time=2765000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2765000 PC=80000450 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2770000
+CLK_TOGGLE: time=2775000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2775000 PC=80000454 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2780000
+CLK_TOGGLE: time=2785000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2785000 PC=80000458 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2790000
+CLK_TOGGLE: time=2795000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2795000 PC=8000045c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2800000
+CLK_TOGGLE: time=2805000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2805000 PC=80000460 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2810000
+CLK_TOGGLE: time=2815000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2815000 PC=80000464 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2820000
+CLK_TOGGLE: time=2825000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2825000 PC=80000468 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2830000
+CLK_TOGGLE: time=2835000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2835000 PC=8000046c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2840000
+CLK_TOGGLE: time=2845000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2845000 PC=80000470 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2850000
+CLK_TOGGLE: time=2855000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2855000 PC=80000474 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2860000
+CLK_TOGGLE: time=2865000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2865000 PC=80000478 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2870000
+CLK_TOGGLE: time=2875000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2875000 PC=8000047c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2880000
+CLK_TOGGLE: time=2885000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2885000 PC=80000480 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2890000
+CLK_TOGGLE: time=2895000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2895000 PC=80000484 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2900000
+CLK_TOGGLE: time=2905000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2905000 PC=80000488 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2910000
+CLK_TOGGLE: time=2915000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2915000 PC=8000048c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2920000
+CLK_TOGGLE: time=2925000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2925000 PC=80000490 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2930000
+CLK_TOGGLE: time=2935000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2935000 PC=80000494 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2940000
+CLK_TOGGLE: time=2945000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2945000 PC=80000498 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2950000
+CLK_TOGGLE: time=2955000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2955000 PC=8000049c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2960000
+CLK_TOGGLE: time=2965000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2965000 PC=800004a0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2970000
+CLK_TOGGLE: time=2975000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2975000 PC=800004a4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2980000
+CLK_TOGGLE: time=2985000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=2985000 PC=800004a8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=2990000
+CLK_TOGGLE: time=2995000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=2995000 PC=800004ac INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3000000
+CLK_TOGGLE: time=3005000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3005000 PC=800004b0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3010000
+CLK_TOGGLE: time=3015000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3015000 PC=800004b4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3020000
+CLK_TOGGLE: time=3025000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3025000 PC=800004b8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3030000
+CLK_TOGGLE: time=3035000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3035000 PC=800004bc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3040000
+CLK_TOGGLE: time=3045000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3045000 PC=800004c0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3050000
+CLK_TOGGLE: time=3055000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3055000 PC=800004c4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3060000
+CLK_TOGGLE: time=3065000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3065000 PC=800004c8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3070000
+CLK_TOGGLE: time=3075000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3075000 PC=800004cc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3080000
+CLK_TOGGLE: time=3085000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3085000 PC=800004d0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3090000
+CLK_TOGGLE: time=3095000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3095000 PC=800004d4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3100000
+CLK_TOGGLE: time=3105000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3105000 PC=800004d8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3110000
+CLK_TOGGLE: time=3115000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3115000 PC=800004dc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3120000
+CLK_TOGGLE: time=3125000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3125000 PC=800004e0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3130000
+CLK_TOGGLE: time=3135000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3135000 PC=800004e4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3140000
+CLK_TOGGLE: time=3145000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3145000 PC=800004e8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3150000
+CLK_TOGGLE: time=3155000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3155000 PC=800004ec INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3160000
+CLK_TOGGLE: time=3165000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3165000 PC=800004f0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3170000
+CLK_TOGGLE: time=3175000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3175000 PC=800004f4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3180000
+CLK_TOGGLE: time=3185000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3185000 PC=800004f8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3190000
+CLK_TOGGLE: time=3195000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3195000 PC=800004fc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3200000
+CLK_TOGGLE: time=3205000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3205000 PC=80000500 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3210000
+CLK_TOGGLE: time=3215000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3215000 PC=80000504 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3220000
+CLK_TOGGLE: time=3225000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3225000 PC=80000508 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3230000
+CLK_TOGGLE: time=3235000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3235000 PC=8000050c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3240000
+CLK_TOGGLE: time=3245000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3245000 PC=80000510 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3250000
+CLK_TOGGLE: time=3255000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3255000 PC=80000514 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3260000
+CLK_TOGGLE: time=3265000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3265000 PC=80000518 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3270000
+CLK_TOGGLE: time=3275000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3275000 PC=8000051c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3280000
+CLK_TOGGLE: time=3285000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3285000 PC=80000520 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3290000
+CLK_TOGGLE: time=3295000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3295000 PC=80000524 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3300000
+CLK_TOGGLE: time=3305000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3305000 PC=80000528 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3310000
+CLK_TOGGLE: time=3315000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3315000 PC=8000052c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3320000
+CLK_TOGGLE: time=3325000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3325000 PC=80000530 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3330000
+CLK_TOGGLE: time=3335000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3335000 PC=80000534 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3340000
+CLK_TOGGLE: time=3345000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3345000 PC=80000538 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3350000
+CLK_TOGGLE: time=3355000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3355000 PC=8000053c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3360000
+CLK_TOGGLE: time=3365000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3365000 PC=80000540 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3370000
+CLK_TOGGLE: time=3375000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3375000 PC=80000544 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3380000
+CLK_TOGGLE: time=3385000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3385000 PC=80000548 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3390000
+CLK_TOGGLE: time=3395000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3395000 PC=8000054c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3400000
+CLK_TOGGLE: time=3405000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3405000 PC=80000550 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3410000
+CLK_TOGGLE: time=3415000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3415000 PC=80000554 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3420000
+CLK_TOGGLE: time=3425000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3425000 PC=80000558 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3430000
+CLK_TOGGLE: time=3435000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3435000 PC=8000055c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3440000
+CLK_TOGGLE: time=3445000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3445000 PC=80000560 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3450000
+CLK_TOGGLE: time=3455000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3455000 PC=80000564 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3460000
+CLK_TOGGLE: time=3465000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3465000 PC=80000568 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3470000
+CLK_TOGGLE: time=3475000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3475000 PC=8000056c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3480000
+CLK_TOGGLE: time=3485000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3485000 PC=80000570 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3490000
+CLK_TOGGLE: time=3495000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3495000 PC=80000574 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3500000
+CLK_TOGGLE: time=3505000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3505000 PC=80000578 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3510000
+CLK_TOGGLE: time=3515000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3515000 PC=8000057c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3520000
+CLK_TOGGLE: time=3525000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3525000 PC=80000580 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3530000
+CLK_TOGGLE: time=3535000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3535000 PC=80000584 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3540000
+CLK_TOGGLE: time=3545000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3545000 PC=80000588 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3550000
+CLK_TOGGLE: time=3555000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3555000 PC=8000058c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3560000
+CLK_TOGGLE: time=3565000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3565000 PC=80000590 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3570000
+CLK_TOGGLE: time=3575000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3575000 PC=80000594 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3580000
+CLK_TOGGLE: time=3585000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3585000 PC=80000598 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3590000
+CLK_TOGGLE: time=3595000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3595000 PC=8000059c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3600000
+CLK_TOGGLE: time=3605000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3605000 PC=800005a0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3610000
+CLK_TOGGLE: time=3615000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3615000 PC=800005a4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3620000
+CLK_TOGGLE: time=3625000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3625000 PC=800005a8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3630000
+CLK_TOGGLE: time=3635000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3635000 PC=800005ac INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3640000
+CLK_TOGGLE: time=3645000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3645000 PC=800005b0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3650000
+CLK_TOGGLE: time=3655000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3655000 PC=800005b4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3660000
+CLK_TOGGLE: time=3665000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3665000 PC=800005b8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3670000
+CLK_TOGGLE: time=3675000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3675000 PC=800005bc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3680000
+CLK_TOGGLE: time=3685000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3685000 PC=800005c0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3690000
+CLK_TOGGLE: time=3695000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3695000 PC=800005c4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3700000
+CLK_TOGGLE: time=3705000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3705000 PC=800005c8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3710000
+CLK_TOGGLE: time=3715000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3715000 PC=800005cc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3720000
+CLK_TOGGLE: time=3725000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3725000 PC=800005d0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3730000
+CLK_TOGGLE: time=3735000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3735000 PC=800005d4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3740000
+CLK_TOGGLE: time=3745000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3745000 PC=800005d8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3750000
+CLK_TOGGLE: time=3755000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3755000 PC=800005dc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3760000
+CLK_TOGGLE: time=3765000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3765000 PC=800005e0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3770000
+CLK_TOGGLE: time=3775000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3775000 PC=800005e4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3780000
+CLK_TOGGLE: time=3785000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3785000 PC=800005e8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3790000
+CLK_TOGGLE: time=3795000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3795000 PC=800005ec INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3800000
+CLK_TOGGLE: time=3805000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3805000 PC=800005f0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3810000
+CLK_TOGGLE: time=3815000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3815000 PC=800005f4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3820000
+CLK_TOGGLE: time=3825000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3825000 PC=800005f8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3830000
+CLK_TOGGLE: time=3835000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3835000 PC=800005fc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3840000
+CLK_TOGGLE: time=3845000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3845000 PC=80000600 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3850000
+CLK_TOGGLE: time=3855000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3855000 PC=80000604 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3860000
+CLK_TOGGLE: time=3865000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3865000 PC=80000608 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3870000
+CLK_TOGGLE: time=3875000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3875000 PC=8000060c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3880000
+CLK_TOGGLE: time=3885000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3885000 PC=80000610 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3890000
+CLK_TOGGLE: time=3895000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3895000 PC=80000614 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3900000
+CLK_TOGGLE: time=3905000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3905000 PC=80000618 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3910000
+CLK_TOGGLE: time=3915000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3915000 PC=8000061c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3920000
+CLK_TOGGLE: time=3925000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3925000 PC=80000620 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3930000
+CLK_TOGGLE: time=3935000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3935000 PC=80000624 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3940000
+CLK_TOGGLE: time=3945000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3945000 PC=80000628 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3950000
+CLK_TOGGLE: time=3955000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3955000 PC=8000062c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3960000
+CLK_TOGGLE: time=3965000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3965000 PC=80000630 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3970000
+CLK_TOGGLE: time=3975000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3975000 PC=80000634 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3980000
+CLK_TOGGLE: time=3985000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=3985000 PC=80000638 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=3990000
+CLK_TOGGLE: time=3995000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=3995000 PC=8000063c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4000000
+CLK_TOGGLE: time=4005000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4005000 PC=80000640 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4010000
+CLK_TOGGLE: time=4015000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4015000 PC=80000644 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4020000
+CLK_TOGGLE: time=4025000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4025000 PC=80000648 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4030000
+CLK_TOGGLE: time=4035000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4035000 PC=8000064c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4040000
+CLK_TOGGLE: time=4045000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4045000 PC=80000650 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4050000
+CLK_TOGGLE: time=4055000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4055000 PC=80000654 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4060000
+CLK_TOGGLE: time=4065000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4065000 PC=80000658 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4070000
+CLK_TOGGLE: time=4075000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4075000 PC=8000065c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4080000
+CLK_TOGGLE: time=4085000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4085000 PC=80000660 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4090000
+CLK_TOGGLE: time=4095000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4095000 PC=80000664 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4100000
+CLK_TOGGLE: time=4105000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4105000 PC=80000668 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4110000
+CLK_TOGGLE: time=4115000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4115000 PC=8000066c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4120000
+CLK_TOGGLE: time=4125000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4125000 PC=80000670 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4130000
+CLK_TOGGLE: time=4135000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4135000 PC=80000674 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4140000
+CLK_TOGGLE: time=4145000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4145000 PC=80000678 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4150000
+CLK_TOGGLE: time=4155000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4155000 PC=8000067c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4160000
+CLK_TOGGLE: time=4165000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4165000 PC=80000680 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4170000
+CLK_TOGGLE: time=4175000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4175000 PC=80000684 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4180000
+CLK_TOGGLE: time=4185000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4185000 PC=80000688 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4190000
+CLK_TOGGLE: time=4195000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4195000 PC=8000068c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4200000
+CLK_TOGGLE: time=4205000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4205000 PC=80000690 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4210000
+CLK_TOGGLE: time=4215000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4215000 PC=80000694 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4220000
+CLK_TOGGLE: time=4225000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4225000 PC=80000698 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4230000
+CLK_TOGGLE: time=4235000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4235000 PC=8000069c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4240000
+CLK_TOGGLE: time=4245000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4245000 PC=800006a0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4250000
+CLK_TOGGLE: time=4255000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4255000 PC=800006a4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4260000
+CLK_TOGGLE: time=4265000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4265000 PC=800006a8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4270000
+CLK_TOGGLE: time=4275000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4275000 PC=800006ac INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4280000
+CLK_TOGGLE: time=4285000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4285000 PC=800006b0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4290000
+CLK_TOGGLE: time=4295000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4295000 PC=800006b4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4300000
+CLK_TOGGLE: time=4305000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4305000 PC=800006b8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4310000
+CLK_TOGGLE: time=4315000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4315000 PC=800006bc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4320000
+CLK_TOGGLE: time=4325000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4325000 PC=800006c0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4330000
+CLK_TOGGLE: time=4335000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4335000 PC=800006c4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4340000
+CLK_TOGGLE: time=4345000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4345000 PC=800006c8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4350000
+CLK_TOGGLE: time=4355000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4355000 PC=800006cc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4360000
+CLK_TOGGLE: time=4365000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4365000 PC=800006d0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4370000
+CLK_TOGGLE: time=4375000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4375000 PC=800006d4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4380000
+CLK_TOGGLE: time=4385000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4385000 PC=800006d8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4390000
+CLK_TOGGLE: time=4395000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4395000 PC=800006dc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4400000
+CLK_TOGGLE: time=4405000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4405000 PC=800006e0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4410000
+CLK_TOGGLE: time=4415000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4415000 PC=800006e4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4420000
+CLK_TOGGLE: time=4425000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4425000 PC=800006e8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4430000
+CLK_TOGGLE: time=4435000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4435000 PC=800006ec INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4440000
+CLK_TOGGLE: time=4445000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4445000 PC=800006f0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4450000
+CLK_TOGGLE: time=4455000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4455000 PC=800006f4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4460000
+CLK_TOGGLE: time=4465000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4465000 PC=800006f8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4470000
+CLK_TOGGLE: time=4475000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4475000 PC=800006fc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4480000
+CLK_TOGGLE: time=4485000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4485000 PC=80000700 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4490000
+CLK_TOGGLE: time=4495000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4495000 PC=80000704 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4500000
+CLK_TOGGLE: time=4505000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4505000 PC=80000708 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4510000
+CLK_TOGGLE: time=4515000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4515000 PC=8000070c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4520000
+CLK_TOGGLE: time=4525000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4525000 PC=80000710 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4530000
+CLK_TOGGLE: time=4535000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4535000 PC=80000714 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4540000
+CLK_TOGGLE: time=4545000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4545000 PC=80000718 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4550000
+CLK_TOGGLE: time=4555000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4555000 PC=8000071c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4560000
+CLK_TOGGLE: time=4565000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4565000 PC=80000720 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4570000
+CLK_TOGGLE: time=4575000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4575000 PC=80000724 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4580000
+CLK_TOGGLE: time=4585000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4585000 PC=80000728 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4590000
+CLK_TOGGLE: time=4595000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4595000 PC=8000072c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4600000
+CLK_TOGGLE: time=4605000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4605000 PC=80000730 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4610000
+CLK_TOGGLE: time=4615000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4615000 PC=80000734 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4620000
+CLK_TOGGLE: time=4625000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4625000 PC=80000738 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4630000
+CLK_TOGGLE: time=4635000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4635000 PC=8000073c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4640000
+CLK_TOGGLE: time=4645000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4645000 PC=80000740 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4650000
+CLK_TOGGLE: time=4655000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4655000 PC=80000744 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4660000
+CLK_TOGGLE: time=4665000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4665000 PC=80000748 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4670000
+CLK_TOGGLE: time=4675000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4675000 PC=8000074c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4680000
+CLK_TOGGLE: time=4685000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4685000 PC=80000750 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4690000
+CLK_TOGGLE: time=4695000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4695000 PC=80000754 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4700000
+CLK_TOGGLE: time=4705000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4705000 PC=80000758 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4710000
+CLK_TOGGLE: time=4715000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4715000 PC=8000075c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4720000
+CLK_TOGGLE: time=4725000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4725000 PC=80000760 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4730000
+CLK_TOGGLE: time=4735000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4735000 PC=80000764 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4740000
+CLK_TOGGLE: time=4745000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4745000 PC=80000768 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4750000
+CLK_TOGGLE: time=4755000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4755000 PC=8000076c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4760000
+CLK_TOGGLE: time=4765000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4765000 PC=80000770 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4770000
+CLK_TOGGLE: time=4775000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4775000 PC=80000774 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4780000
+CLK_TOGGLE: time=4785000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4785000 PC=80000778 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4790000
+CLK_TOGGLE: time=4795000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4795000 PC=8000077c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4800000
+CLK_TOGGLE: time=4805000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4805000 PC=80000780 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4810000
+CLK_TOGGLE: time=4815000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4815000 PC=80000784 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4820000
+CLK_TOGGLE: time=4825000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4825000 PC=80000788 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4830000
+CLK_TOGGLE: time=4835000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4835000 PC=8000078c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4840000
+CLK_TOGGLE: time=4845000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4845000 PC=80000790 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4850000
+CLK_TOGGLE: time=4855000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4855000 PC=80000794 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4860000
+CLK_TOGGLE: time=4865000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4865000 PC=80000798 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4870000
+CLK_TOGGLE: time=4875000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4875000 PC=8000079c INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4880000
+CLK_TOGGLE: time=4885000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4885000 PC=800007a0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4890000
+CLK_TOGGLE: time=4895000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4895000 PC=800007a4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4900000
+CLK_TOGGLE: time=4905000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4905000 PC=800007a8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4910000
+CLK_TOGGLE: time=4915000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4915000 PC=800007ac INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4920000
+CLK_TOGGLE: time=4925000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4925000 PC=800007b0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4930000
+CLK_TOGGLE: time=4935000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4935000 PC=800007b4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4940000
+CLK_TOGGLE: time=4945000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4945000 PC=800007b8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4950000
+CLK_TOGGLE: time=4955000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4955000 PC=800007bc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4960000
+CLK_TOGGLE: time=4965000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4965000 PC=800007c0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4970000
+CLK_TOGGLE: time=4975000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4975000 PC=800007c4 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4980000
+CLK_TOGGLE: time=4985000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+T=4985000 PC=800007c8 INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=4990000
+CLK_TOGGLE: time=4995000
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+TOP_CLK_EDGE: time=0
+T=4995000 PC=800007cc INST=xxxxxxxx x1=42 x2=2147483904 x3=42
+CLK_TOGGLE: time=5000000
+CLK_TOGGLE: time=5005000
+TOP_CLK_EDGE: time=0
+REG_CLK: time=0
+CLK_EDGE: time=0
+RF_DEBUG: time=0 reg_write=0 rd=x write_data=0
+=== RTL_REGISTER_DUMP_START ===
+x1=42
+x2=2147483904
+x3=42
+x4=x
+x5=x
+x6=x
+x7=x
+x8=x
+x9=x
+x10=x
+x11=x
+x12=x
+x13=x
+x14=x
+x15=x
+x16=x
+x17=x
+x18=x
+x19=x
+x20=x
+x21=x
+x22=x
+x23=x
+x24=x
+x25=x
+x26=x
+x27=x
+x28=x
+x29=x
+x30=x
+x31=x
+=== RTL_REGISTER_DUMP_END ===
+tb/cpu_tb.v:98: $finish called at 5005000 (1ps)
+T=5005000 PC=800007d0 INST=xxxxxxxx x1=42 x2=2147483904 x3=42

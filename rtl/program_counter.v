@@ -7,7 +7,7 @@ module program_counter(
 
 always @(posedge clk or posedge rst ) begin
     if(rst) begin 
-        pc <= 32'b0;
+        pc <= 32'h80000000;
     end else begin
         pc <= next_pc;
     end

@@ -23,10 +23,10 @@ all: compile run check
 # ------------------------------------------------------------
 # 1. Compile Assembly (.s) -> Hex (.hex) for Instruction Memory
 # ------------------------------------------------------------
-build/%.hex: riscv_assembly_examples/*/%.s
-	mkdir -p build
-	$(CC) -march=rv32i -mabi=ilp32 -nostdlib -Ttext=0x00000000 $< -o build/$*.elf
-	$(OBJCOPY) -O verilog build/$*.elf build/$*.hex
+build/%.hex: riscv_assembly_examples/%.s
+	mkdir -p $(dir $@)
+	$(CC) -march=rv32i -mabi=ilp32 -nostdlib -T link.ld -ffreestanding -fno-builtin $< -o build/$*.elf
+	$(OBJCOPY) -O verilog --verilog-data-width=4 --strip-all build/$*.elf build/$*.hex
 	# Remove @address lines (Icarus $readmemh only wants raw hex)
 	sed -i '/@/d' build/$*.hex
 
@@ -35,7 +35,8 @@ build/%.hex: riscv_assembly_examples/*/%.s
 # ------------------------------------------------------------
 compile: build/$(TEST_NAME).hex
 	mkdir -p $(VCD_DIR)
-	$(SIM) -o build/cpu_sim.vvp $(RTL_FILES) -s cpu_tb
+	cp build/$(TEST_NAME).hex program.hex
+	$(SIM) -g2005-sv -o build/cpu_sim.vvp $(RTL_FILES) -s cpu_tb
 
 run: compile
 	# Run the simulation and capture stdout for the checker
@@ -53,12 +54,10 @@ check: run
 # 4. Run ALL directed tests (Full Regression)
 # ------------------------------------------------------------
 regression:
-	@for test in $$(find riscv_assembly_examples -name "*.s" | sed 's/.*\///' | sed 's/\.s//'); do \
+	@for test in $$(find riscv_assembly_examples -name "*.s" | sed 's|^riscv_assembly_examples/||' | sed 's/\.s$$//'); do \
 		echo ">>> Running $$test..."; \
 		$(MAKE) TEST_NAME=$$test check || exit 1; \
-	done
-
-# ------------------------------------------------------------
+	done------------------------------------------------------
 # 5. Generate + Run Random Test
 # ------------------------------------------------------------
 random:

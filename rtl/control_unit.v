@@ -51,6 +51,7 @@ always @(*) begin
             alu_src_a = 2'b00; // rs1_data
         end
         7'b0000011: begin // Load
+        $display("CONTROL: lw detected, reg_write=%0d", reg_write);
             reg_write = 1;
             alu_src   = 1;
             mem_read  = 1;
@@ -136,5 +137,6 @@ always @(*) begin
         end
         default: ;
     endcase
+    $display("CTRL_FINAL: opcode=%b reg_write=%0d", opcode, reg_write);
 end
 endmodule

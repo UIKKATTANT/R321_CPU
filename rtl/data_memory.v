@@ -19,25 +19,13 @@ module data_memory(
     // Write Logic (Sequential)
     //=========================
     always @(posedge clk) begin
-        if (mem_write) begin
-            integer idx_w;
-            idx_w = (address - 32'h80000000) >> 2;
-            dmem[idx_w] <= write_data;
-            $display("DMEM_WRITE: time=%0t addr=%h index=%0d write_data=%0d", $time, address, idx_w, write_data);
-        end
-    end
-
-    //=========================
-    // Read Logic (Combinational)
-    //=========================
-    always @(*) begin
-        if (mem_read) begin
-            integer idx_r;
-            idx_r = (address - 32'h80000000) >> 2;
-            read_data = dmem[idx_r];
-            $display("DMEM_READ: time=%0t addr=%h index=%0d read_data=%0d", $time, address, idx_r, read_data);
-        end else
+        if (mem_write)
+            emem[[1:]
+===
+ Logic (Combinational)
+        if (mem_read)
+            read_data = dmem[address[31:2]];
+        else
             read_data = 32'b0;
     end
-
-endmodule
+[31:2]]

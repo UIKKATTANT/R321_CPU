@@ -2,20 +2,13 @@ import re, subprocess, sys, argparse, os
 
 def run_spike(test):
     elf = f"build/{test}.elf"
+    # Spike must run in RV32 mode
     cmd = ["spike", "--isa=rv32i", "-m0x80000000:0x1000000", "-l", "--log-commits", elf]
-    try:
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
-        output = result.stderr
-    except subprocess.TimeoutExpired as e:
-        output = e.stderr
-        if output is None:
-            output = ""
-        elif isinstance(output, bytes):
-            output = output.decode('utf-8')
+    result = subprocess.run(cmd, capture_output=True, text=True, timeout=10)
     regs = {}
-    # \b ensures we match "x" as a word, not part of "0x"
-    for line in output.split('\n'):
-        m = re.search(r'\bx(\d+)\s+(?:<-\s+)?(0x[0-9a-f]+)', line, re.IGNORECASE)
+    # Spike logs register writes like: "x1 <- 0x00000005"
+    for line in result.stderr.split('\n'):
+        m = re.search(r'x(\d+)\s+(?:<-\s+)?(0x[0-9a-f]+)', line, re.IGNORECASE)
         if m:
             reg_num = int(m.group(1))
             if reg_num != 0:
@@ -32,7 +25,7 @@ def run_rtl():
         sys.exit(1)
     regs = {}
     for line in data[start:end].split('\n'):
-        m = re.search(r'\bx(\d+)=(-?\d+)', line, re.IGNORECASE)
+        m = re.search(r'x(\d+)=(-?\d+)', line)
         if m:
             reg_num = int(m.group(1))
             if reg_num != 0:
@@ -44,9 +37,12 @@ if __name__ == "__main__":
     parser.add_argument("--test", required=True)
     args = parser.parse_args()
 
+    # Ensure the ELF exists (if not, compile it)
     if not os.path.exists(f"build/{args.test}.elf"):
+        # Find the .s file (could be in subdir or directly under riscv_assembly_examples)
         s_path = f"riscv_assembly_examples/{args.test}.s"
         if not os.path.exists(s_path):
+            # Maybe it's in a subdirectory
             import glob
             candidates = glob.glob(f"riscv_assembly_examples/*/{args.test}.s")
             if candidates:
@@ -57,8 +53,7 @@ if __name__ == "__main__":
         subprocess.run([
             "riscv64-unknown-elf-gcc",
             "-march=rv32i", "-mabi=ilp32", "-nostdlib",
-            "-T", "link.ld",
-            "-ffreestanding", "-fno-builtin",
+            "-Ttext=0x80000000",   # Match Spike's default memory map
             s_path,
             "-o", f"build/{args.test}.elf"
         ], check=True)
