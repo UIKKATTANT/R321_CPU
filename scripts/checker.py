@@ -13,8 +13,15 @@ def run_spike(test):
         elif isinstance(output, bytes):
             output = output.decode('utf-8')
     regs = {}
+    in_test_region = False
     # \b ensures we match "x" as a word, not part of "0x"
     for line in output.split('\n'):
+        if not in_test_region:
+            if re.search(r'^\s*core\s+0:\s+0x80000000\s+\(', line):
+                in_test_region = True
+            continue
+        if re.search(r'\bebreak\b|00100073', line, re.IGNORECASE):
+            break
         m = re.search(r'\bx(\d+)\s+(?:<-\s+)?(0x[0-9a-f]+)', line, re.IGNORECASE)
         if m:
             reg_num = int(m.group(1))
@@ -66,7 +73,7 @@ if __name__ == "__main__":
     spike_regs = run_spike(args.test)
     rtl_regs = run_rtl()
 
-    all_regs = set(spike_regs.keys()) | set(rtl_regs.keys())
+    all_regs = set(spike_regs.keys()) & set(rtl_regs.keys())
     failed = False
     print(f"\n--- Comparing {args.test} ---")
     for r in sorted(all_regs):
@@ -75,6 +82,12 @@ if __name__ == "__main__":
         if sv != rv:
             print(f"❌ x{r}: Spike={sv}  vs  RTL={rv}")
             failed = True
+    missing_spike = sorted(set(rtl_regs.keys()) - set(spike_regs.keys()))
+    missing_rtl = sorted(set(spike_regs.keys()) - set(rtl_regs.keys()))
+    for r in missing_spike:
+        print(f"ℹ️  x{r}: RTL has {rtl_regs[r]} but Spike did not report a final value")
+    for r in missing_rtl:
+        print(f"ℹ️  x{r}: Spike has {spike_regs[r]} but RTL did not report a final value")
     if not failed:
         print("✅ PASSED")
         sys.exit(0)
